@@ -1,0 +1,43 @@
+File Organizer and Email Extractor
+This project contains two Python programs:
+
+1. A file organizer that moves all .jpg images from one folder to another
+2. An email extractor that finds and saves email addresses from a text file
+
+FEATURES
+File Organizer:
+* Scans a source folder
+* Moves all .jpg files to a destination folder
+* Automatically creates destination folder if it does not exist
+
+Email Extractor:
+* Reads data from a text file
+* Extracts all email addresses using regular expressions
+* Saves extracted emails into a new file
+
+TECHNOLOGIES USED
+* Python 3
+* os module (file handling)
+* shutil module (file moving)
+* re module (regular expressions)
+
+HOW IT WORKS
+
+Part 1: File Organizer
+
+* Checks for destination folder
+* Creates it if not present
+* Moves all .jpg files from source_images to jpg_files
+
+Part 2: Email Extractor
+
+* Reads content from data.txt
+* Uses regex pattern to find email addresses
+* Saves results into emails.txt
+
+OUTPUT
+* .jpg files moved to:
+  jpg_files/
+
+* Extracted emails saved in:
+  emails.txt
