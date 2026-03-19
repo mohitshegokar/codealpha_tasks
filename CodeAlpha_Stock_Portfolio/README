@@ -1,1 +1,41 @@
+Stock Portfolio Tracker
 
+A simple Python program that allows users to create and manage a stock portfolio. The program calculates the total investment value based on predefined stock prices and saves the results to a text file.
+
+FEATURES
+* Input stock names and quantities
+* Supports predefined stocks (AAPL, TSLA, GOOG, AMZN)
+* Calculates individual and total investment value
+* Displays portfolio summary in console
+* Saves portfolio details to a text file (portfolio.txt)
+
+HOW IT WORKS
+1. User enters the number of stocks they want to buy
+2. User inputs stock name and quantity
+3. Program checks if the stock exists
+4. Calculates total investment value
+5. Displays summary
+6. Saves results to a file
+
+SUPPORTED STOCKS
+* AAPL (Apple)
+* TSLA (Tesla)
+* GOOG (Google)
+* AMZN (Amazon)
+
+USAGE
+* Enter number of stocks
+* Enter stock name (case insensitive)
+* Enter quantity
+* View results in terminal
+* Check saved file: portfolio.txt
+
+OUTPUT FILE
+The program creates a file named:
+portfolio.txt
+
+It contains:
+* Stock names
+* Quantities
+* Individual values
+* Total investment value
