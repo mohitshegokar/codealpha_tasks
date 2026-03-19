@@ -1,0 +1,38 @@
+Simple Chatbot in Python
+
+This is a basic rule-based chatbot built using Python. The chatbot interacts with users through predefined responses and runs in the command line interface.
+
+FEATURES
+* Responds to basic greetings
+* Answers simple questions
+* Continuous conversation loop
+* Exit command to stop the chatbot
+* Beginner-friendly implementation
+
+HOW IT WORKS
+* The chatbot takes user input
+* Converts input to lowercase for easy matching
+* Matches input with predefined conditions
+* Responds accordingly
+* Continues until the user types "bye"
+
+SUPPORTED COMMANDS
+* "hello" → Greets the user
+* "how are you" → Responds with status
+* "what is your name" → Tells chatbot name
+
+USAGE
+* Run the script
+* Type messages in the terminal
+* Get responses from the chatbot
+* Type "bye" to exit
+
+EXAMPLE
+You: hello
+Chatbot: Hi!
+
+You: how are you
+Chatbot: I'm fine, thanks!
+
+You: bye
+Chatbot: Goodbye!
