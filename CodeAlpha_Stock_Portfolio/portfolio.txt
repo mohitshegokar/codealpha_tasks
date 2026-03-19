@@ -1,0 +1,5 @@
+Stock Portfolio Summary
+AAPL Quantity:5 Value:750
+GOOG Quantity:4 Value:1200
+AMZN Quantity:6 Value:2100
+Total Investment Value = 4050
